@@ -25,10 +25,10 @@ internal class WeatherRepoImplTest {
             whenever(remoteSource.get(query,
                 cnt,
                 appId)).thenReturn(spy(MockAsync(CityWeatherDTO())))
-            whenever(localSource.retrieveList(query)).thenReturn(emptyList())
+            whenever(localSource.retrieveList(query)).thenReturn(listOf(mock()))
             repo.search(query)
 
-            verify(localSource, only()).retrieveList(query)
+            verify(localSource, times(1)).retrieveList(query)
             verify(remoteSource.get(query, cnt, appId), never()).await()
         }
     }
