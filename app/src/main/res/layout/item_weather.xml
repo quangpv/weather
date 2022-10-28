@@ -4,30 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="5dp"
     tools:context=".presentation.feature.WeatherFragment">
 
     <TextView
         android:id="@+id/txtDate"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text="Date" />
 
     <TextView
         android:id="@+id/txtAvgTemp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text="Date" />
 
     <TextView
         android:id="@+id/txtPressure"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text="Date" />
 
     <TextView
         android:id="@+id/txtHumidity"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text="Date" />
 
     <TextView
         android:id="@+id/txtDescription"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:text="Date" />
 </LinearLayout>

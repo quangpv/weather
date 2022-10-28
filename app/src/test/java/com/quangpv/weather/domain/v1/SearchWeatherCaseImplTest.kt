@@ -32,7 +32,7 @@ internal class SearchWeatherCaseImplTest {
     }
 
     @Test
-    fun `just accept query has length great than 3 and query is empty`() {
+    fun `just accept query has at least 3 characters or query is empty`() {
         Assert.assertThrows(SearchQueryException::class.java) {
             runBlocking { case("a") }
         }
