@@ -60,5 +60,5 @@ bunch of API requests.
 [v] 9. The application is able to support the disability to scale large text for who can't see the text
 clearly.
 
-10. The application is able to support the disability to read out the text using VoiceOver controls.
+[x] 10. The application is able to support the disability to read out the text using VoiceOver controls.
 
