@@ -21,12 +21,18 @@ Clean Architecture with MVVM pattern
 
 ## Framework using
 
-ViewModel 
+ViewModel
+
 LiveData 
+
 View binding 
+
 Coroutines 
+
 Retrofit 
+
 Mockito for test.
+
 Dependency Injection (Android support).
 
 ## Run step
