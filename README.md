@@ -35,7 +35,7 @@ Dependency Injection (Android support).
    `./gradlew testDebugUnitTest`
 2. Run app
    `./gradlew installDebug`
-3. Build release apk app.
+3. Build release (apk app).
    `./gradlew assembleRelease`
    
 ## Check list
