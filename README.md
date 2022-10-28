@@ -7,7 +7,7 @@ Interface Segregation Principle D - Dependency Inversion Principle
 
 ## Code structure
 
-<img src='https://github.com/quangpv/punk-test-android/blob/main/images/screenshot.png' width='400px'/>
+<img src='https://github.com/quangpv/weather/blob/main/documents/diagram.png' width='400px'/>
 
 ## Framework using
 
