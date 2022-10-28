@@ -17,7 +17,7 @@ D - Dependency Inversion Principle
 
 Clean Architecture with MVVM pattern
 
-<img src='https://github.com/quangpv/weather/blob/main/documents/diagram.png' width='400px'/>
+<img src='https://github.com/quangpv/weather/blob/main/documents/diagram.png' width='600px'/>
 
 ## Framework using
 
