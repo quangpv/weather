@@ -7,6 +7,7 @@ import android.view.View
 import com.quangpv.weather.R
 import com.quangpv.weather.databinding.FragmentWeatherBinding
 import com.quangpv.weather.presentation.base.AppFragment
+import com.quangpv.weather.presentation.extension.hideKeyboard
 
 class WeatherFragment : AppFragment(R.layout.fragment_weather) {
     private val viewModel by viewModel<WeatherViewModel>()
@@ -22,6 +23,7 @@ class WeatherFragment : AppFragment(R.layout.fragment_weather) {
 
         binding.btnSearch.setOnClickListener {
             viewModel.search(binding.edtSearch.text.toString())
+            binding.edtSearch.hideKeyboard()
         }
         binding.rvList.adapter = adapter
     }
